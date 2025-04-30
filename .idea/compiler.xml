@@ -12,6 +12,7 @@
         <module name="config" />
         <module name="discovery" />
         <module name="gateway" />
+        <module name="studentManagement" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="search" options="-parameters" />
+      <module name="studentManagement" options="-parameters" />
     </option>
   </component>
 </project>
