@@ -1,7 +1,0 @@
-com\antra\studentmanagement\StudentManagementApplication.class
-com\antra\studentmanagement\service\impl\StudentServiceImpl.class
-com\antra\studentmanagement\pojo\Result.class
-com\antra\studentmanagement\service\StudentService.class
-com\antra\studentmanagement\controller\StudentController.class
-com\antra\studentmanagement\pojo\Student.class
-com\antra\studentmanagement\mapper\StudentMapper.class
