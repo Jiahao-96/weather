@@ -17,13 +17,10 @@ Finished all the homework.
 
 Screenshots are as follows:（Postman, Splunk, Grafana, Swagger）
 
-![API](D:\CodeHouse\IdeaProjects\Antra\weather\pics\API.jpg)
-
-![dashboard](D:\CodeHouse\IdeaProjects\Antra\weather\pics\dashboard.jpg)
-
-![swagger](D:\CodeHouse\IdeaProjects\Antra\weather\pics\swagger.jpg)
-
-![grafana](D:\CodeHouse\IdeaProjects\Antra\weather\pics\grafana.jpg)
+![API](pics/API.jpg)
+![dashboard](pics/dashboard.jpg)
+![swagger](pics/swagger.jpg)
+![grafana](pics/grafana.jpg)
 
 Swagger:
 visit:
