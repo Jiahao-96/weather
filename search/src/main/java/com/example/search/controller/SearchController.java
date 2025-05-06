@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 @RestController
@@ -29,7 +30,7 @@ public class SearchController {
 
     @GetMapping("/weather/search/getStu")
     public CompletableFuture<ResponseEntity<?>> getStu(){
-        CompletableFuture<String> futureStudents = searchServiceImpl.searchForStudentAsync();
+        CompletableFuture<Map<String,String>> futureStudents = searchServiceImpl.searchForStudentAsync();
         return futureStudents.thenApply(stus -> new ResponseEntity<>("weather search for stu" + stus, HttpStatus.OK));
     }
 
